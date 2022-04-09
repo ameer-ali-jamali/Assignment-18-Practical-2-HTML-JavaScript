@@ -1,13 +1,13 @@
 hr{
     border: solid blue 2px;
-    width: 468px;
-    margin-bottom: 68px;
+    width: 478px;
+    margin-bottom: 80px;
     padding: 8px;
     position: relative;
 }
 body{
     text-align: center;
-    font-size: 27px;
+    font-size: 113px;
     color: dimgray;
     background-color: aliceblue;
 }
