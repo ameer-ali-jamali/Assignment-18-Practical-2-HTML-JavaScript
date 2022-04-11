@@ -153,6 +153,3 @@ subtraction/multiplication/division and display the result accordingly.
 //     document.write(num8/num9)
 //     document.write("<hr>")
 //     }
-
-
- 
