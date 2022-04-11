@@ -44,19 +44,19 @@ If user presses 1 , ask for temperature in f and convert it to c. Vice versa for
 */
 ///////////////////////////////////////////////////////////////////////
 
-// var num1 = parseInt(prompt(`Convert tempreture 
-//  1 Convert Fehrenheit to Celcius 
-//  2 Convert Celcius To Fehrenheit`))
+var num1 = parseInt(prompt(`Convert tempreture 
+ 1 Convert Celcius To Fehrenheit 
+ 2 Convert Fehrenheit to Celcius`))
 
-//  if(num1>0 && num1<2){
-//   var c = parseInt(prompt("Enter Celcius"));
-//   document.write(c*1.8+32)
-//  }
+ if(num1>0 && num1<2){
+  var c = parseInt(prompt("Enter Celcius"));
+alert(c*1.8+32)
+ }
 
-//  if(num1>1 && num1<3){
-//   var f = parseInt(prompt("Enter Fehrenheit"));
-//  document.write((f-32)/1.8)
-//  }
+ if(num1>1 && num1<3){
+  var f = parseInt(prompt("Enter Fehrenheit"));
+ alert((f-32)/1.8)
+ }
  
 
 ////////////////////////////////////////////////////////////////////////
