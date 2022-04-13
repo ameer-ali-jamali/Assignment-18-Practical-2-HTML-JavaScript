@@ -44,19 +44,19 @@ If user presses 1 , ask for temperature in f and convert it to c. Vice versa for
 */
 ///////////////////////////////////////////////////////////////////////
 
-var num1 = parseInt(prompt(`Convert tempreture 
- 1 Convert Celcius To Fehrenheit 
- 2 Convert Fehrenheit to Celcius`))
+// var num1 = parseInt(prompt(`Tempreture Converter 
+//  1 Convert Celcius To Fehrenheit 
+//  2 Convert Fehrenheit to Celcius`))
 
- if(num1>0 && num1<2){
-  var c = parseInt(prompt("Enter Celcius"));
-alert(c*1.8+32)
- }
+//  if(num1>0 && num1<2){
+//   var c = parseInt(prompt("Enter Celcius"));
+// alert(c*1.8+32)
+//  }
 
- if(num1>1 && num1<3){
-  var f = parseInt(prompt("Enter Fehrenheit"));
- alert((f-32)/1.8)
- }
+//  if(num1>1 && num1<3){
+//   var f = parseInt(prompt("Enter Fehrenheit"));
+//  alert((f-32)/1.8)
+//  }
  
 
 ////////////////////////////////////////////////////////////////////////
@@ -69,23 +69,26 @@ message “Wrong Password”.
 */
 ///////////////////////////////////////////////////////////////////////
 
-// var pass = parseInt(prompt("Enter Password"))
-//      var num1 = parseInt(prompt("Enter Any Numbers for calculation"))
-//      var num2 = parseInt(prompt("Enter Any Numbers for calculation"))     
-//      if (pass=="admin"){
-//      document.write("Addition   ="+ num1+num2)
-//      document.write("<hr>")
-//      document.write("Subtraction  =")
-//      document.write(num1-num2)
-//      document.write("<hr>")
-//      document.write("Multiplication   ="+num1*num2)
-//      document.write("<hr>")
-//      document.write("Division    ="+num1/num2)
-//      document.write("<hr>")
-//      }
-//      else {
-//       document.write("Wrong Password")   
-//      }
+     // var pass =prompt("Enter Password");
+     // if (pass=="admin"){
+     //  let num1 = parseInt(prompt("Enter Any Numbers for calculation"))
+     //  let num2 = parseInt(prompt("Enter Any Numbers for calculation"))  
+     // document.write("Addition   =")
+     // document.write(num1+num2)
+     // document.write("<hr>")
+     // document.write("Subtraction  =")
+     // document.write(num1-num2)
+     // document.write("<hr>")
+     // document.write("Multiplication   =")
+     // document.write(num1*num2)
+     // document.write("<hr>")
+     // document.write("Division    =")
+     // document.write(num1/num2)
+     // document.write("<hr>")
+     // }
+     // else if(pass!="admin"){
+     //  document.write("Wrong Password")   
+     //  }
 
 
 ////////////////////////////////////////////////////////////////////////
@@ -129,6 +132,7 @@ subtraction/multiplication/division and display the result accordingly.
 
 // var num1 = prompt("Please Enter >>> addition / subtraction / multiplication /  division <<< for calculation")
     
+
 //     if (num1=="addition"){
 //         var num2 = parseInt(prompt(""))
 //     var num3 = parseInt(prompt(""))
