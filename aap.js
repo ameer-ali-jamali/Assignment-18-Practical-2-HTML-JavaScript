@@ -32,6 +32,29 @@ Q1: Write a program that takes 3 numbers from user and find the sum of
 //      }
 // else{
 //      alert("Please try again")
+//}
+
+////////////////////////////////////////////////////////////////////////
+/* 
+
+Q2: Write a weather forecast program.
+Less than 20, display cold
+20 – 30, display normal
+Greater than 30, display hot.
+
+*/
+///////////////////////////////////////////////////////////////////////
+
+// let a = parseInt(prompt("Enter Wheather In Numbers"));
+// if(a<=20){
+//      alert("Cold")
+// }
+// else if(a>20 || a<=30){
+//      alert("Normal")
+// }
+// else if(a>30){
+//      alert('Hot')
+// }
 
 
 ////////////////////////////////////////////////////////////////////////
